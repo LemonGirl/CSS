@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS上下左右居中四</title>
+    <style>
+        #parent {
+            width: 200px;
+            height: 100px;
+            background-color: #1f6377;
+            display: table;
+        }
+
+        #child {
+            background-color: #0e90d2;
+            color: #5eb95e;
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<div id="parent">
+    <div id="child">
+        我是未知高宽的子元素！
+    </div>
+</div>
+</body>
+</html>

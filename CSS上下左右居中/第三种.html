@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS上下左右居中三</title>
+    <style>
+        #parent {
+            width: 500px;
+            height: 300px;
+            background-color: #1f6377;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #child {
+            background-color: #0e90d2;
+            color: #5eb95e;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+<div id="parent">
+    <div id="child">
+        我是未知高宽的子元素！
+    </div>
+</div>
+</body>
+</html>
