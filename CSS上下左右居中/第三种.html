@@ -8,7 +8,7 @@
             width: 500px;
             height: 300px;
             background-color: #1f6377;
-            display: flex;
+            display: -webkit-flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
@@ -16,6 +16,7 @@
         }
 
         #child {
+			width:50%;
             background-color: #0e90d2;
             color: #5eb95e;
             flex: 1;
@@ -25,7 +26,7 @@
 <body>
 <div id="parent">
     <div id="child">
-        我是未知高宽的子元素！
+        我在一个未知高宽的子元素里！
     </div>
 </div>
 </body>
